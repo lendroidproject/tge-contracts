@@ -39,7 +39,7 @@ For eg, using `ethers.js`, you can get the distribution contract as below.
 distributionContract = new ethers.Contract(address, abi)
 ```
 
-where `address` and `abi` can be obtained from 1.2 and 1.1 above respectively.
+where `address` and `abi` can be obtained from [1.2](#12-contract-address) and [1.1](#11-contract-abi) above respectively.
 
 ---
 
@@ -51,7 +51,7 @@ You can check your allocations by calling the function _`allocations(YOUR_ETH_AD
 
 ### ***2.2. If you have never withdrawn your allocated LST previously***
 
-Follow step 2.1 above to see if your allocation details indicate whether you have vested or not.
+Follow step [2.1](#21-to-check-the-lst-allocated-to-your-eth-address) above to see if your allocation details indicate whether you have vested or not.
 
 #### *2.2.1 If your LST was not vested*
 
@@ -59,9 +59,9 @@ You can withdraw 100% of your allocated LST by calling the function _`withdraw()
 
 #### *2.2.2 If your LST was vested*
 
-Follow step 2.2.1 to withdraw 10% of your allocated LST.
+Follow step [2.2.1](#221-if-your-lst-was-not-vested) to withdraw 10% of your allocated LST.
 
-Then proceed to step 2.3 to withdraw the remaining 90% of your allocated LST.
+Then proceed to step [2.3](#23-if-you-have-already-withdrawn-a-portion-of-your-vested-lst) to withdraw the remaining 90% of your allocated LST.
 
 ### ***2.3. If you have already withdrawn a portion of your vested LST***
 
